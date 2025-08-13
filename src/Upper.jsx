@@ -151,6 +151,9 @@ export default function Upper() {
   if(humidlevel>70){
     humid='High humidity: use a dehumidifier '
     humidcolor='text-red-600'
+  }else if(humidlevel<70){
+    humid="Normal humidity"
+    humidcolor='text-green-600'
   }else if(humidlevel<30){
     humid="Dry air: use a hunidifier"
     humidcolor='text-red-600'

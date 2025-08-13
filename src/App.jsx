@@ -1,4 +1,5 @@
 import ImageSlider from "./ImageSlider"
+import Mode from "./Mode"
 import Products from "./Products"
 import Qr from "./Qr"
 import Testing from "./Testing"
